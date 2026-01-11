@@ -5,9 +5,9 @@ package datacloudinitconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-cloudinit-go/cloudinit/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-cloudinit-go/cloudinit/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-cloudinit-go/cloudinit/v11/datacloudinitconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-cloudinit-go/cloudinit/v11/datacloudinitconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewDataCloudinitConfigPartOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataCloudinitConfigPartOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartOutputReference",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewDataCloudinitConfigPartOutputReference_Override(d DataCloudinitConfigPar
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartOutputReference",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,10 +5,10 @@ package config
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-cloudinit-go/cloudinit/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-cloudinit-go/cloudinit/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-cloudinit-go/cloudinit/v11/config/internal"
+	"github.com/cdktn-io/cdktn-provider-cloudinit-go/cloudinit/v11/config/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewConfig(scope constructs.Construct, id *string, config *ConfigConfig) Con
 	j := jsiiProxy_Config{}
 
 	_jsii_.Create(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewConfig_Override(c Config, scope constructs.Construct, id *string, config
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -544,7 +544,7 @@ func Config_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func Config_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func Config_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func Config_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func Config_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		"tfResourceType",
 		&returns,
 	)

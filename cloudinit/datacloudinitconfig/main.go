@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		reflect.TypeOf((*DataCloudinitConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigConfig",
 		reflect.TypeOf((*DataCloudinitConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPart",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPart",
 		reflect.TypeOf((*DataCloudinitConfigPart)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartList",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartList",
 		reflect.TypeOf((*DataCloudinitConfigPartList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartOutputReference",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfigPartOutputReference",
 		reflect.TypeOf((*DataCloudinitConfigPartOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

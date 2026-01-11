@@ -5,10 +5,10 @@ package datacloudinitconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-cloudinit-go/cloudinit/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-cloudinit-go/cloudinit/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-cloudinit-go/cloudinit/v11/datacloudinitconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-cloudinit-go/cloudinit/v11/datacloudinitconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -369,7 +369,7 @@ func NewDataCloudinitConfig(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataCloudinitConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -382,7 +382,7 @@ func NewDataCloudinitConfig_Override(d DataCloudinitConfig, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -477,7 +477,7 @@ func DataCloudinitConfig_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -512,7 +512,7 @@ func DataCloudinitConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -531,7 +531,7 @@ func DataCloudinitConfig_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataCloudinitConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataCloudinitConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
+		"@cdktn/provider-cloudinit.dataCloudinitConfig.DataCloudinitConfig",
 		"tfResourceType",
 		&returns,
 	)

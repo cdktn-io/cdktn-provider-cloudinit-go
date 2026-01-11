@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-cloudinit.config.Config",
+		"@cdktn/provider-cloudinit.config.Config",
 		reflect.TypeOf((*Config)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-cloudinit.config.ConfigConfig",
+		"@cdktn/provider-cloudinit.config.ConfigConfig",
 		reflect.TypeOf((*ConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-cloudinit.config.ConfigPart",
+		"@cdktn/provider-cloudinit.config.ConfigPart",
 		reflect.TypeOf((*ConfigPart)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-cloudinit.config.ConfigPartList",
+		"@cdktn/provider-cloudinit.config.ConfigPartList",
 		reflect.TypeOf((*ConfigPartList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-cloudinit.config.ConfigPartOutputReference",
+		"@cdktn/provider-cloudinit.config.ConfigPartOutputReference",
 		reflect.TypeOf((*ConfigPartOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

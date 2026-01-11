@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-cloudinit.provider.CloudinitProvider",
+		"@cdktn/provider-cloudinit.provider.CloudinitProvider",
 		reflect.TypeOf((*CloudinitProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -44,7 +44,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-cloudinit.provider.CloudinitProviderConfig",
+		"@cdktn/provider-cloudinit.provider.CloudinitProviderConfig",
 		reflect.TypeOf((*CloudinitProviderConfig)(nil)).Elem(),
 	)
 }
