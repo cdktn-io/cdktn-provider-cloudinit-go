@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/cloudinit/2.3.7/docs/data-sources/config cloudinit_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/cloudinit/2.4.0/docs/data-sources/config cloudinit_config}.
 type DataCloudinitConfig interface {
 	cdktn.TerraformDataSource
 	Base64Encode() interface{}
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataCloudinitConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/cloudinit/2.3.7/docs/data-sources/config cloudinit_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/cloudinit/2.4.0/docs/data-sources/config cloudinit_config} Data Source.
 func NewDataCloudinitConfig(scope constructs.Construct, id *string, config *DataCloudinitConfigConfig) DataCloudinitConfig {
 	_init_.Initialize()
 
@@ -386,7 +386,7 @@ func NewDataCloudinitConfig(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/cloudinit/2.3.7/docs/data-sources/config cloudinit_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/cloudinit/2.4.0/docs/data-sources/config cloudinit_config} Data Source.
 func NewDataCloudinitConfig_Override(d DataCloudinitConfig, scope constructs.Construct, id *string, config *DataCloudinitConfigConfig) {
 	_init_.Initialize()
 
