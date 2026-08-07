@@ -47,6 +47,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberMethod{JsiiMethod: "putPart", GoMethod: "PutPart"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "rendered", GoGetter: "Rendered"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBase64Encode", GoMethod: "ResetBase64Encode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBoundary", GoMethod: "ResetBoundary"},
